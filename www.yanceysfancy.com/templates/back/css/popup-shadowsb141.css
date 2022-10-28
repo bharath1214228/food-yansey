@@ -1,0 +1,106 @@
+
+div.pf-window {
+    position:absolute;
+    overflow:hidden;
+}
+
+/* MENU type container */
+td.container-content-menu {
+    vertical-align: top;    
+    background: transparent;    
+}
+
+/* No Shadows on Container */
+table.container-no-shadow {
+    border-collapse: collapse;
+}
+
+table.container-no-shadow td {
+    vertical-align: top;
+}
+
+/* Low Shadows on Container using "low" in all class names */
+table.container-low-shadow {
+    border-collapse: collapse;
+    width:100%;
+}
+
+table.container-low-shadow td {
+    vertical-align: top;
+}
+
+td.container-low-vertical-shadow {
+    width: 5px;
+    background: transparent url('../../../cmscore/images/shadows/low/vertical-shadow.png') repeat-y left top;
+}
+
+td.ie-container-low-vertical-shadow {
+    width: 5px;
+}
+
+img.ie-container-low-vertical-img-shadow {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../cmscore/images/shadows/low/vertical-shadow.png', enabled=true, sizingMethod=crop);
+    height: 100%;
+}
+
+
+td.container-low-horizontal-shadow {
+    height: 6px;
+    background: transparent url('../../../cmscore/images/shadows/low/horizontal-shadow.png') repeat-x left top;
+}
+
+td.ie-container-low-horizontal-shadow {
+    height: 6px;
+}
+
+img.ie-container-low-horizontal-img-shadow {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../cmscore/images/shadows/low/horizontal-shadow.png', enabled=true, sizingMethod=crop);
+    height: 6px;
+}
+
+td.container-low-corner-shadow {
+    width:5px;
+    height:6px;
+}
+
+img.ie-container-low-corner-img-shadow {
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../../cmscore/images/shadows/low/corner-shadow.png', enabled=true, sizingMethod=crop);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.submenu-block{
+    position: absolute;
+    visibility:hidden;
+}
+
+/***********  POPUP SHADOWED CONTAINER  **********/
+
+/***********  POPUP  **********/
+.popup-title-bar{
+    width: 100%;
+    height: 32px;
+    padding: 4px 5px;
+    background: transparent url('../images/titlebar_bg.gif') repeat-x;
+    }
+.pu-top-left{
+    background: transparent url('../images/pu_top_left_corner.html');
+    width: 12px;
+    height: 32px;
+    }
+.pu-top-right{
+    background: transparent url('../images/pu_top_right_corner.html');
+    width: 12px;
+    height: 32px;
+    }

@@ -1,0 +1,50 @@
+.quick-quote {
+	font-size:18px;
+	font-style:italic;
+	text-align:center;
+	padding:10px 0;
+}
+
+.read-testimonial {
+	font-size:10px;
+	padding-top:5px;
+}
+
+.testimonial-table {
+	width:100%;
+}
+
+.testimonial-info {
+	float:right; text-align:right; padding-top:10px;
+}
+
+li.news-module {
+	border-bottom:1px dashed #DDD;
+	margin-bottom:10px;
+	padding-bottom:5px;
+}
+
+div.news-publish-date {
+	margin-top:5px;
+	font-size:11px;
+	width:100%;
+	color:#999;
+}
+
+ul.news-module-list li {
+	background:none;
+	list-style-image:none;
+	margin-left:0;
+}
+
+ul.event-module-list li {
+	background:none;
+	list-style-image:none;
+	margin-left:0;
+}
+
+.imagelist-item .video iframe {
+  width: 90%;
+  height: 98%;
+}
+

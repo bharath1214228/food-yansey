@@ -1,0 +1,26 @@
+.rss-feeder {  }
+
+.rss-feeder a {
+    margin-top: 10px;
+    display: block;
+    clear: both;
+}
+.rss-feeder ul { list-style-type:none; margin:0; padding:0;  }
+
+.rss-feeder li {
+    margin:0 0 10px !important;
+    padding:0 0 5px !important;
+    border-bottom: 1px dashed #DDD;
+    list-style-type:none !important;
+}
+
+.rss-feeder small {
+    color: #999;
+    font-size: 11px;
+}
+
+ul.rss-feeder li {
+	background:none;
+	list-style-image:none;
+	margin-left:0;
+}

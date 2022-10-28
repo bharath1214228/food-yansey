@@ -1,0 +1,230 @@
+/*
+    Document   : custom_recipecard
+    Created on : Mar 18, 2014, 12:22:28 PM
+    Author     : sbrigham
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root {
+    display: block;
+}
+
+.custom_recipecard_search_item {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+    transition: all .2s ease-in-out;
+    border-radius: 6px;
+}
+
+.custom_recipecard_search_item:hover {
+    box-shadow: rgba(149, 157, 165, 0.25) 0px 8px 24px;
+    background: #efefef;
+}
+
+.custom_recipecard_search_item:hover a {
+    color: #000;
+    transition: all .2s ease-in-out;
+}
+
+.custom_recipecard_search_item img.recipe_image {
+    transition: all .2s ease-in-out;
+}
+
+.custom_recipecard_search_item:hover img.recipe_image {
+    opacity: .9;
+}
+
+div#search_results {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    div#search_results {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    div#search_results {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*@media (min-width: 768px) {
+    .custom_recipecard_search_item {
+        display: block;
+        float: left;
+        margin: 13px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .custom_recipecard_search_item {
+        width: 46%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1260px) {
+    .custom_recipecard_search_item {
+        width: 30%;
+    }
+    .custom_recipecard_search_item:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+@media (min-width: 1261px) {
+    .custom_recipecard_search_item {
+        width: 22%;
+    }
+    .custom_recipecard_search_item:nth-child(4n+1) {
+        clear: left;
+    }
+}
+*/
+
+.custom_recipecard_search_item img {
+    display: block;
+    height: 250px;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+@media (min-width: 1261px) {
+    .custom_recipecard_search_item img {
+        max-width: 100%;
+    }
+}
+
+.recipe_name_search a {
+    min-height: 36px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+@media (max-width: 767px) {
+    .recipe_name_search a {
+        padding: 15px;
+    }
+}
+
+.recipe_name_search {
+    max-height: 37px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .recipe_name_search {
+        max-height: inherit;
+        margin: 0;
+    }
+}
+
+.custom_image_wrapper {
+    height: 250px;
+}
+
+.top_search {
+    margin: 15px 0;
+    padding: 10px;
+    overflow: hidden;
+    background: rgba(69, 54, 48, 0.15);
+}
+
+h1#custom_phys_header {
+    display: inline;
+    float: left;
+    width: auto;
+    margin: 8px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-family: myriad-pro-condensed, myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.custom_recipe_name,
+.custom_recipe_name_submit {
+    float: left;
+}
+
+.custom_recipe_name input[type="text"] {
+    height: 31px;
+    height: 29px\9;
+    margin-top: 0;
+    margin-left: 6px;
+    padding: 4px;
+    padding-top: 10px\9;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+
+.custom_recipe_name_submit input[type="submit"] {
+    margin-left: 8px;
+    padding: 4px 16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+    border: 0;
+    border-radius: 0;
+}
+
+.custom_recipe_name_submit input[type="submit"]:hover {}
+
+#back_to_search a {
+    padding: 2px 11px;
+    font-size: 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.custom_recipe_link {
+    text-align: center;
+}
+
+.custom_recipe_link>a {
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+    color: #e81c2c;
+    letter-spacing: 1px;
+    font-family: myriad-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+.custom_image_wrapper.placeholder img {
+    width: 75%;
+    padding-top: 45px;
+    height: auto;
+}

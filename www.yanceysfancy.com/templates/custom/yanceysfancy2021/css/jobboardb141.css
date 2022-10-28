@@ -1,0 +1,249 @@
+.jobboard h2 { margin: 2px; }
+.jobboard table { border-collapse: separate; }
+.jobboard fieldset { border: 1px solid #336699; padding: 8px; }
+.jobboard legend {
+    /*background-color: #336699;*/
+    color: #336699;
+    margin-left: 6px;
+    padding: 4px;
+}
+
+
+/********** FORM POST JOB **********/
+
+div#posting_details a {
+    font-size: 12px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #776150;
+}
+
+/* Job Posting Details / Edit Details */
+.jobboard-job-details {
+    float:left;
+    width:65%;
+    border-right:1px dotted #ccc;
+    padding-right:12px;
+    margin-bottom:24px;
+}
+.form-post-job-details { width:560px; }
+.form-post-job-details td.form-caption-1 {
+    background-color:#efefef;
+    border-right:1px dotted #aaa;
+    padding:8px;
+}
+.form-post-job-details  { width:450px; }
+.form-post-job-details #job_title {
+  width: 98%;
+}
+
+.jobboard-contact-details {
+    width:30%;
+    float:right;
+    background-color:#eee;
+    padding:8px;
+    margin-bottom:24px;
+}
+.jobboard-contact-details .form-element-1 { padding:1px 0;}
+.jobboard-contact-details .form-caption-1 { padding:4px 2px; white-space:nowrap;}
+
+.job-post-options { clear:both; border:1px solid #ccc; padding:12px; }
+.job-post-options ul { list-style: none; }
+.job-post-options ul li { margin: 0; }
+.job-post-options label input { vertical-align: bottom; }
+
+
+/********** JOB LIST **********/
+#jobboard_menu { list-style: none; float: right; }
+#jobboard_menu li { margin:4px; }
+.jobboard #job_postings { list-style: none; margin: 0; clear: both; }
+.jobboard #job_postings li.job_posting { margin: 0; padding: 20px; float:right; width:100%; border-bottom: 1px solid #f5f5dc; background:none; }
+.jobboard #job_postings h3 { margin: 0; }
+.jobboard li.job_posting h3 a {
+    font-family: 'homestead_regularregular';
+    font-size: 24px;
+    margin: 10px 0;
+    color: #4c2d12;
+}
+.jobboard #job_postings li ul.actions { padding-bottom:20px; }
+.jobboard #job_postings li .actions { list-style: none; float: right; padding-right: 20px; }
+.jobboard #job_postings li .actions li {
+    background: none;
+    margin: 10px 0;
+}
+.jobboard .search_summary { background-color:#efefef; padding:8px; }
+.jobboard .search_summary h3 { margin: 0; font-size:14px; }
+
+
+/* Job Posting Search */
+table.job-posting-search {
+    margin-top: 18px;
+    border-bottom: 1px solid #fff;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0 0 31px -13px rgba(0,0,0,1);
+    width: 100%;
+}
+table.job-posting-search td {
+    border-bottom: 0;
+    padding: 5px 6px 0px 9px;
+}
+table.job-posting-search td.form-caption-1 {
+    background-color: #eae7d6;
+    border-right:1px dotted #aaa;
+    padding:8px;
+}
+
+.jobboard a.action-icon {
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #333;
+}
+.jobboard a.action-icon:hover {
+    color: #f1445c;
+}
+.jobboard a.action-icon img { border: 0; vertical-align: middle; padding: 0 8px; }
+
+
+
+/******** JOB BOARD DETAIL VIEW *********/
+.jobboard.job_view_details { overflow: hidden; }
+
+.jobboard.job_view_details #posting_details {
+    float:right;
+    width:74%;
+}
+
+
+/* Posting Sidebar, Posting Actions */
+.jobboard.job_view_details #posting_sidebar {
+    text-align: left;
+    width: 22%;
+    float: left;
+    margin:0 24px 24px 0;
+}
+.jobboard.job_view_details #posting_summary {
+    text-align: left;
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid #ccc;
+    width: 212px;
+    padding:6px;
+    box-shadow: 0 0 31px -13px rgba(0,0,0,1);
+}
+.jobboard.job_view_details #posting_actions {
+    background-color: rgba(255,255,255,0.6);
+    border: 1px solid #ccc;
+    width: 212px;
+    padding:6px;
+    margin-bottom:12px;
+    box-shadow: 0 0 31px -13px rgba(0,0,0,1);
+}
+.jobboard.job_view_details #posting_sidebar h3,
+.jobboard.job_view_details #posting_actions h3 {
+    background-color: #eae7d6;
+    color: #ec0928;
+    margin-bottom: 17px;
+    padding: 6px 8px;
+    font-family: myriad-pro-condensed, myriad-pro, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin: 0;
+}
+#posting_sidebar h4, #posting_actions h4 {
+    margin: 0 8px;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+#posting_sidebar p { margin:0 16px 8px 16px }
+#posting_actions .button {
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    background: #37383d;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 12px 32px;
+    font-size: 15px;
+    line-height: 1.42857143;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: myriad-pro, sans-serif;
+    font-weight: bold;
+}
+#posting_actions .button:hover {
+    text-decoration: none;
+    background: #191919;
+    color: #fff;
+}
+.jobboard.job_view_details table td { padding: 4px; }
+
+.job_posting.job_desired { /* job desired listing */
+    background-color: #f5f5f5;
+}
+
+.jobboard_posting.status_change {
+    display: inline;
+}
+
+.jobboard_posting.status_change input {
+    cursor: pointer;
+}
+
+#container_use_external_web_apply {
+    white-space: nowrap;
+}
+
+#container_use_external_web_apply p.hint {
+    color: #999;
+    white-space: normal;
+    padding-top: 3px;
+}
+
+#container_use_external_web_apply input {
+    width: 208px;
+    margin-left: 4px;
+}
+
+/* Pagination */
+div.paging .next {
+    float:right;
+}
+
+div.paging .previous {
+    float:left;
+}
+
+ul#jobboard_menu li a {
+    font-size: 15px;
+    color: #fff;
+    background-color: #37383d;
+    border-color: #37383d;
+    white-space: normal;
+    padding: 15px 30px 15px 30px;
+    border-radius: 0;
+    -webkit-appearance: unset;
+    font-family: myriad-pro, sans-serif;
+    font-style: normal;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul#jobboard_menu li a:hover {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+}
+
+#posting_content {
+    border-top: 1px solid #f5f5dc;
+    margin-top: 15px;
+}
+
+input#jobboard_search_btn {
+    font-weight: normal;
+}

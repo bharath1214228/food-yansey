@@ -1,0 +1,19 @@
+ul.catalog-category-module {
+
+}
+
+ul.catalog-category-module a {
+    margin-top: 10px;
+    display: block;
+    clear: both;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.catalog-category-module li {
+    margin: 0px;
+    padding-bottom:3px;
+    border-bottom: 1px dashed #DDD;
+}

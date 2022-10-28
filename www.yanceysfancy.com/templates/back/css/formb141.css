@@ -1,0 +1,362 @@
+input {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+select {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+optgroup option {
+    padding-left:12px;
+}
+
+textarea {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+
+/* Input Element Captions */
+td.form-caption-1 {
+    padding:2px;
+    padding-right:4px;
+    padding-top:6px;
+    vertical-align:top;
+    text-align:right;
+    font-weight:bold;
+}
+
+td.form-caption-2 {
+    padding:2px;
+    padding-top:4px;
+    padding-left:4px;
+    vertical-align:top;
+    text-align:left;
+    font-weight:bold;
+}
+
+td.form-caption-light {
+    text-align:right;
+    padding-top:5px;
+    vertical-align:top;
+    padding-right:4px;
+}
+
+td.form-element-light {
+    text-align:left;
+    padding-top:2px;
+    vertical-align:top;
+}
+
+td.form-element-1 {
+    padding:2px;
+    margin-left:0px;
+    text-align:left;
+}
+
+td.form-element-2 {
+    padding:2px;
+    margin-left:0px;
+    text-align:right;
+}
+
+td.display-element-1 {
+    padding-top:6px;
+}
+
+td.display-no-padding-off {
+    padding:0px;
+}
+
+.smallbi-display-element {
+    font-style:italic;
+    font-size:10px;
+    font-weight:bold;
+}
+
+td.collection-caption {
+    text-align:left;
+    padding-top:4px;
+    padding-left:3px;
+    padding-right:8px;
+}
+td.options-only-collection-caption {
+    text-align:left;
+    padding-top:3px;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+td.collection {
+    padding-left:2px;
+    padding-top:2px;
+}
+td.options-only-collection {
+    padding:0px;
+}
+
+.form-error-1 {
+    color:#FF0000;
+}
+
+/* Input Element Defaults */
+
+input.text-off {
+    background-color:#FFFFFF;
+    border:1px solid #EBE4D9;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+input.text-on {
+    background-color:#FFFFFF;
+    border:1px solid #990000;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+
+input.password-off {
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    background-color:#FFFFFF;
+    border:1px solid #EBE4D9;
+}
+input.password-on {
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    background-color:#FFFFFF;
+    border:1px solid #990000;
+}
+
+input.datetime-off {
+    background-color:#FFFFFF;
+    border:1px solid #EBE4D9;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+input.datetime-on {
+    background-color:#FFFFFF;
+    border:1px solid #990000;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+
+textarea.textarea-off {
+    padding:1px 2px 1px 2px;
+    background-color:#FFFFFF;
+    border:1px solid #EBE4D9;
+}
+textarea.textarea-on {
+    padding:1px 2px 1px 2px;
+    background-color:#FFFFFF;
+    border:1px solid #990000;
+}
+
+input.file-off {
+    background-color:#FFFFFF;
+    border:1px solid #EBE4D9;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+input.file-on {
+    background-color:#FFFFFF;
+    border:1px solid #990000;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+
+input.submit-off, input.button-off {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+}
+
+input.submit-over, input.button-over {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #CC0000;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+}
+
+input.submit-on, input.button-on {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+}
+
+div.display-off {
+    padding-top:4px;
+    font-size:12px;
+}
+span.display-off {
+    font-size:12px;
+}
+
+input.fileupload-off {
+    background-color:#DFDFDF;
+    border:1px solid #EBE4D9;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    cursor:default;
+    width:220px;
+}
+input.fileupload-on {
+    background-color:#DFDFDF;
+    border:1px solid #EBE4D9;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    cursor:default;
+    width:220px;
+}
+
+div.ajax-list-suggestions {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    position: absolute;
+    z-index:99999;
+    overflow-x:visible;
+}
+
+div.ajax-list-suggestions div {
+    cursor: default;
+    padding: 0px 3px;
+    background-color:#FFFFFF;
+}
+
+div.ajax-list-suggestions div.current {
+    background-color: #3366cc;
+    color: white;
+}
+
+div.ajax-list-details {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color:#FFFFFF;
+    position: absolute;
+    z-index:99999;
+    overflow-x:visible;
+}
+
+div.ajax-element-container {
+    padding-top:4px;
+}
+td.ajax-element-toggle {
+    padding-top:2px;
+    padding-left:1px;
+    vertical-align:top;
+    cursor:pointer;
+}
+td.ajax-element-text {
+    padding-left:4px;
+}
+
+input.spinner-off {
+    padding:1px 2px 1px 2px;
+    padding-right:20px;
+    background-color:#FFFFFF;
+    background-repeat:no-repeat;
+    background-position:100% 0%;
+    background-image:url(../../../cmscore/images/buttons/spinner_updown.gif);
+    border:1px solid #EBE4D9;
+    vertical-align:middle;
+    text-align:right;
+}
+input.spinner-on {
+    padding:1px 2px 1px 2px;
+    padding-right:20px;
+    background-color:#FFFFFF;
+    background-repeat:no-repeat;
+    background-position:100% 0%;
+    background-image:url(../../../cmscore/images/buttons/spinner_updown.gif);
+    border:1px solid #990000;
+    vertical-align:middle;
+    text-align:right;
+}
+
+input.spinner-on.up {
+  cursor:pointer;
+  background-position:100% -18px;
+}
+input.spinner-on.down {
+  cursor:pointer;
+  background-position:100% -36px;
+}
+
+
+
+/* Default help icon placement */
+td.fe-help {
+    vertical-align:top;
+    padding:1px 0px 0px 4px;
+}
+
+td.fe-collection-help {
+    vertical-align:top;
+    padding:4px 0px 0px 4px;
+}
+
+/* Add Custom Help Styles for each element type if desired - They will cascade*/
+
+#list_frm_element_list_listtable td.icon-column {
+  padding-top: 6px;
+}
+
+div.form-element-info {
+}
+
+div.form-element-info ul {
+   list-style: none;
+   overflow: auto;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+div.form-element-info ul li {
+    float: left;
+}
+div.form-element-info ul li.elm-name {
+    width: 280px;
+}
+div.form-element-info ul li.elm-type {
+}
+div.form-element-info dl {
+    display: table-row;
+    color: #777;
+    font-size: 10px;
+}
+div.form-element-info dl dt, 
+div.form-element-info dl dd {
+    display: table-cell;
+    padding: 2px 4px 2px 0;
+}
+div.form-element-info dl dt {
+    font-weight: bold;
+}
+div.form-element-info dl dd {
+    padding-right: 20px;
+}
+div.form-element-info dl dd.elm-code {
+    width: 230px;
+}
+div.form-element-info span.elm-required {
+    color: #cc0000;
+}

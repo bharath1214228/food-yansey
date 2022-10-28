@@ -1,0 +1,351 @@
+
+@import "hawtness.css";
+
+*{
+    padding: 0px;
+    border-collapse: collapse;
+    font-family:arial,tahoma,sans-serif;
+    }
+
+*:focus {
+    outline: none;
+}  
+
+body {
+    margin:0px;
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+    vertical-align:top;
+    cursor:default;
+    font: 12px arial,tahoma,sans-serif;
+    background: #ffffff url('../images/background.gif') repeat-x top;
+    padding-top:31px;
+}
+
+img {
+    margin: 0px;
+    padding: 0px;
+    /*border:1px solid #000000;*/
+}
+
+form {
+    margin:0px;
+}
+
+table {
+
+}
+
+th {
+    font-size:11px;
+}
+
+td {
+    font-size:11px;
+    vertical-align:top;
+    /*border:1px solid #000000;*/
+}
+
+p {
+    margin:0px;
+}
+
+a, a:link, a:visited {
+    font-family:arial;
+    font-size:11px;
+    color: blue;
+/*    color:#000000;*/
+/*    text-decoration:none;*/
+}
+a:hover {
+    font-family:arial;
+    font-size:11px;
+    color: blue;
+/*    color:#FF0000;*/
+/*    text-decoration:underline;*/
+}
+
+/*a.blue {
+    color: blue;
+}
+
+a.red {
+    color: red;
+}*/
+
+a.underlined, a.underlined:link, a.underlined:visited {
+    font-family:arial;
+    font-size:11px;
+    color:#000000;
+    text-decoration:underline;
+}
+a.underlined:hover {
+    font-family:arial;
+    font-size:11px;
+    color:#FF0000;
+    text-decoration:underline;
+}
+
+#top_bar {
+    height:40px;
+    background-color:#3366CC;
+    vertical-align:middle;
+}
+#top_bar_caption {
+    color:#FFFFFF;
+    font-size:20px;
+    vertical-align:middle;
+    padding-left:10px;
+    padding-right:10px;
+}
+#top_bar_right {
+    vertical-align:middle;
+    text-align:right;
+    padding-right:20px;
+    padding-left:10px;
+}
+a.top-bar, a.top-bar:link, a.top-bar:visited {
+    font-family:arial;
+    font-size:11px;
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+a.top-bar:hover {
+    font-family:arial;
+    font-size:11px;
+    color:#00CCFF;
+    text-decoration:none;
+}
+
+#main_body {
+    padding:4px;
+    padding-right:6px;
+}
+
+div.page-caption {
+    width:100%;
+    font-size:11px;
+    font-weight:bold;
+    color:#000000;
+    padding-bottom:5px;
+    border-bottom:1px solid #333399;
+    margin-bottom:4px;
+}
+
+div.page-caption a {
+    color: #000;
+}
+
+div.page-caption a, div.page-caption a:hover, div.page-caption a:visited, div.page-caption a:active {
+    text-decoration:underline;
+}
+
+#title_bar {
+    position:absolute;
+    left:0px;
+    top:0px;
+    font: bold 14px;
+    width: 99%;
+    height: 23px;
+    background: transparent url('../images/titlebar_left.gif') no-repeat left;
+    clear: both;
+    margin-top: 4px;
+}
+
+#menu_bar {
+    /*position:absolute;
+    left:0px;
+    top:31px;*/
+    width: 97%;
+    height: 21px;
+    background: transparent url('../images/menubar_left.gif') no-repeat top left;
+    padding-top:2px;
+    padding-left:15px;
+}
+
+#menu_bar a {
+    text-decoration: none;
+}
+
+#smi {
+    position: relative;
+    float: right;
+    top: 1px;
+    margin-top:-21px;
+}
+#smi a img { border: 0; }
+
+.fission-logo {
+    float: left;
+    margin-left: 10px;
+    display: inline;
+}
+.company-logo {
+    float: right;
+    display: inline;
+    margin-right:8px;
+}
+.company-logo a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Myriad Pro", Arial;
+}
+.fission-alert {
+    /*position:absolute;
+    left:170px;*/
+    float:left;
+    width:100%;
+    font-size:18px;
+    color:#FFFFFF;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.dash-icon-container {
+    border:1px solid #cccccc;
+    border-right:1px solid #666666;
+    border-bottom:1px solid #666666;
+    background-color:#eeeeee;
+    width:400px;
+    /*height:250px;*/
+    overflow: hidden;
+}
+div.dash-icon-container div.icon {
+    padding:18px;
+    text-align:center;
+    float:left;
+}
+div.dash-icon-container div.icon a {
+    text-decoration:none;
+    color: #000;
+}
+
+td.dash-tab-container {
+    padding:0px 10px 0px 10px;
+}
+
+iframe.imagemanager-frame {
+    border:1px solid #000000;
+}
+
+iframe.filemanager-frame {
+    border:1px solid #000000;
+}
+
+.usys-exception-new-rule {
+    border:1px solid #CCCCCC;
+    padding:4px;
+    margin:0px;
+    margin-bottom:4px;
+}
+
+.usys-exception-new-rule legend {
+    font-weight:bold;
+}
+
+div#pf_action_bar {
+    background: #f5f5f5;
+    border-top: 1px solid #a8a8a8;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 2px 0 2px 12px;
+    height: 34px;
+}
+
+div#recommendfeat {
+}
+
+div#recommendfeat a {
+  text-indent: -2000px;
+  background: url(../../../fission/images/button-submit-idea.png) no-repeat;
+  display: block;
+  position: absolute;
+  top: -6px;
+  right: -120px;
+  width: 300px;
+  height: 200px;
+}
+
+div#getsupport {
+}
+
+div#getsupport a {
+  text-indent: -2000px;
+  background: url(../../../fission/images/button-submit-help.png) no-repeat;
+  display: block;
+  position: absolute;
+  top: -6px;
+  right: 32px;
+  width: 300px;
+  height: 200px;
+}
+
+.claro #menu_bar .dijitMenuBar {
+    float: left;
+
+    background-color: transparent;
+    background-image: none;
+    border: 0;
+}
+
+.claro #menubar .dijitMenuItem,
+.claro #menubar .dijitMenuItemFocused{
+    padding: 4px 10px;
+}
+
+.claro #menubar .dijitMenuItemHover,
+.claro #menubar .dijitMenuItemActive {
+    padding: 3px 9px;
+}
+
+/** fix the arrow */
+.claro .dijitMenuExpand  {
+    margin-top: 6px;
+}
+
+dl.simple-kvp {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 8px;
+}
+dl.simple-kvp dt, dl.simple-kvp dd {
+    padding: 4px;
+}
+dl.simple-kvp dt {
+    float: left;
+    width: 120px;
+    font-weight: bold;
+}
+dl.simple-kvp dd {
+}
+.CodeMirror-scroll {
+  height: auto !important;
+  overflow-y: hidden !important;
+  overflow-x: auto !important;
+}
+.CodeMirror-GoFullscreen {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    border: 0px solid #BBBBBB;
+    opacity: 1;
+}
+#version_info {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #999;
+}
+body.dashboard-ui #version_info { padding-bottom: 20px; }

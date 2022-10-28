@@ -1,0 +1,17 @@
+
+td.nodetext-default {
+    vertical-align:middle;    
+}
+td.other-td-icon {
+    vertical-align:middle;
+    width:16px;
+    padding:0px 2px 0px 2px;
+}
+span.disabled-branch {
+    color:#ADADAD;
+}
+
+td.branch-text {
+    vertical-align: middle;
+    padding-left: 3px;
+}

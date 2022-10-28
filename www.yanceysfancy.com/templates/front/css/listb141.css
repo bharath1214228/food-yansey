@@ -1,0 +1,278 @@
+
+/* Standard List */
+table.standard-list {
+    border:1px solid #C4C4C4;
+    border-top:0px;
+    width:100%;
+    vertical-align:top;
+}
+
+table.standard-list th {
+    border-top:1px solid #C4C4C4;
+    background-color:#3366CC;
+    text-align:right;
+    padding:3px;
+    padding-left:4px;
+    padding-right:4px;
+    font-weight:bold;
+}
+
+table.standard-list th.list-title {
+    color:#FFFFFF;
+}
+table.standard-list th.list-title-1 {
+    color:#FFFFFF;
+    text-align:left;
+}
+table.standard-list th.list-title-left {
+    color:#FFFFFF;
+    text-align:left;
+}
+table.standard-list th.list-title-center {
+    color:#FFFFFF;
+    text-align:center;
+}
+
+table.standard-list th.list-title a.list-title,a.list-title:link,a.list-title:visited {
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title a.list-title:hover {
+    color:#00CCFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title-left a.list-title-left,a.list-title-left:link,a.list-title-left:visited {
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title-center a.list-title-center,a.list-title-center:link,a.list-title-center:visited {
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title-left a.list-title-left:hover {
+    color:#00CCFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title-1 a.list-title-1,a.list-title-1:link,a.list-title-1:visited {
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+table.standard-list th.list-title-1 a.list-title-1:hover {
+    color:#00CCFF;
+    text-decoration:underline;
+}
+
+table.standard-list tr.alternate-1 {
+    background-color:#FFFFFF;
+}
+
+table.standard-list tr.alternate-2 {
+    background-color:#F3F3F3;
+}
+
+table.standard-list tr.alternate-3 {
+    background-color:#D3D3D3;
+}
+
+table.standard-list td.empty-list {
+    text-align:center;
+    background-color:#FFFFFF;
+    padding:10px 10px 10px 10px;
+    border-top:1px solid #C4C4C4;
+}
+
+table.standard-list td.standard-column-1 {
+    width: 100%;
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:left;
+}
+table.standard-list td.standard-column {
+    width: 100%;
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:right;
+    padding-right:16px;
+}
+table.standard-list td.standard-column-left {
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:left;
+    padding-right:16px;
+}
+table.standard-list td.standard-column-center {
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:center;
+    padding-right:16px;
+}
+
+table.standard-list td.standard-column-nosort {
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:right;
+    padding-right:4px;
+}
+table.standard-list td.icon-column {
+    border-top:1px solid #C4C4C4;
+    padding:3px;
+    text-align:left;
+    vertical-align:top;
+    padding-right:2px;
+}
+table.standard-list td.center-icon-column {
+    border-top:1px solid #C4C4C4;
+    text-align:center;
+    vertical-align:top;
+    padding:2px;
+    padding-right:2px;
+    padding-left:2px;
+}
+
+table.standard-list-complete {
+    width:100%;
+}
+
+table.standard-list-complete td.title {
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;
+    padding-bottom:3px;
+}
+
+table.standard-list-complete td.list-caption {
+    font-size:13px;
+    color:#002B53;
+    font-weight:bold;
+    padding-left:8px;
+    padding-top:3px;
+    vertical-align:middle;
+}
+
+table.standard-list-complete td.filter {
+    padding-bottom:3px;
+}
+
+table.standard-list-complete td.paging {
+    padding-bottom:3px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+table.standard-list-complete td.list-image {
+    padding-left:5px;
+}
+
+table.standard-list-paging td {
+    font-size:11px;
+    padding:0px;
+}
+
+table.standard-list-paging td span {
+    font-weight:bold;
+}
+
+td.standard-list-prevnext {
+    width:50px;
+}
+td.standard-list-prevnext a.prevnext, a.prevnext:visited, a.prevnext:link {
+    font-size:11px;
+}
+td.standard-list-prevnext a.prevnext:hover {
+    font-size:11px;
+}
+
+table.standard-list-pages {
+
+}
+table.standard-list-pages td {
+    padding: 1px 2px 2px 2px;
+}
+table.standard-list-pages td span {
+    color:#500000;
+}
+
+table.standard-list a, table.standard-list a:visited, table.standard-list a:link {
+    color:#000000;
+    text-decoration:underline;
+}
+table.standard-list a:hover {
+    color:#FF0000;
+    text-decoration:underline;
+}
+
+a.standard-list-anchor, a.standard-list-anchor:visited, a.standard-list-anchor:link {
+    color:#C21B21;
+}
+a.standard-list-anchor:hover {
+    color:#FF0033;
+}
+
+/* BLANK LIST STYLES */
+
+table.blank-list-complete {
+    width: 100%;
+}
+
+table.blank-list-complete td.paging {
+    padding-bottom:3px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+table.blank-list-complete td.list-image {
+    padding-left:5px;
+}
+
+table.blank-list-paging td {
+    font-size:11px;
+    padding:0px;
+}
+
+table.blank-list-paging td span {
+    font-weight:bold;
+}
+
+td.blank-list-prevnext {
+    width:50px;
+}
+td.blank-list-prevnext a.prevnext, a.prevnext:visited, a.prevnext:link {
+    font-size:11px;
+}
+td.blank-list-prevnext a.prevnext:hover {
+    font-size:11px;
+}
+
+table.blank-list-pages {
+
+}
+table.blank-list-pages td {
+    padding: 1px 2px 2px 2px;
+}
+table.blank-list-pages td span {
+    color:#500000;
+}
+
+table.blank-list a, table.blank-list a:visited, table.blank-list a:link {
+    text-decoration:underline;
+}
+table.blank-list a:hover {
+    text-decoration:underline;
+}
+
+a.blank-list-anchor, a.blank-list-anchor:visited, a.blank-list-anchor:link {
+    color:#C21B21;
+}
+a.blank-list-anchor:hover {
+    color:#FF0033;
+}
+
+div.empty-list {
+    text-align:center;
+    background-color:#FFFFFF;
+    padding:10px 10px 10px 10px;
+    border-top:1px solid #C4C4C4;
+    margin-top:8px;
+}

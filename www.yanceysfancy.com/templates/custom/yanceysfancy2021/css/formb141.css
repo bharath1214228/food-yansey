@@ -1,0 +1,346 @@
+/*
+================================================================================
+FORMS
+================================================================================
+*/
+
+.form-group {
+  position: relative;
+}
+
+/* Label & Caption
+-------------------------------------------------------------------------------- */
+label {
+  cursor: pointer;
+}
+
+.form-caption-1 {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 600;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.form-caption-2 {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+
+/* Inputs
+-------------------------------------------------------------------------------- */
+.form-element-1 {
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+.form-element-2 {
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+  height: auto;
+  padding: 6px 10px;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/*
+-------------------
+Input Error State
+-------------------
+*/
+.has-error input[type="text"],
+.has-error input[type="email"],
+.has-error input[type="password"],
+.has-error input[type="number"],
+.has-error select,
+.has-error textarea {
+  border-color: #f00;
+}
+
+/* error message */
+.form-error-1,
+.has-error .help-block {
+  display: block;
+  font-size: 80%;
+  color: #f00;
+}
+
+/* TextArea
+-------------------------------------------------------------------------------- */
+textarea {
+  width: 100%;
+  font-family: inherit;
+}
+
+
+/* Select/Dropdowns
+-------------------------------------------------------------------------------- */
+select {}
+
+
+/* Checkbox
+-------------------------------------------------------------------------------- */
+input[type="checkbox"] {
+  margin-right: 7px;
+}
+
+
+/* Radio
+-------------------------------------------------------------------------------- */
+input[type="radio"] {
+  margin-right: 7px;
+}
+
+
+/* Buttons
+-------------------------------------------------------------------------------- */
+.btn,
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  font-size: .8em;
+  font-weight: 500;
+  line-height: 1.42857143;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  border: 1px solid;
+  transition: all 0.2s;
+  padding: 15px 30px 15px 30px;
+  border-radius: 0;
+  -webkit-appearance: unset;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/*
+------------------
+Button Sizes
+------------------
+*/
+
+/* lg */
+.btn-lg {
+  padding: 19px 33px;
+}
+
+/* sm */
+.btn-sm {
+  padding: 5px 12px;
+}
+
+/* xs */
+.btn-xs {
+  padding: 2px 5px;
+  letter-spacing: 1px;
+}
+
+
+/*
+------------------
+Button Variations
+------------------
+*/
+
+/* Default */
+.btn-default,
+button,
+input[type="reset"],
+input[type="submit"] {
+  color: #F89B4D;
+  background-color: transparent;
+  border: 1px solid #F89B4D;
+  white-space: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Default - Hover */
+.btn-default:hover,
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  color: #fff;
+  background-color: #191919;
+  border-color: #191919;
+}
+
+/* Primary & Submit Button */
+.btn-primary,
+input[type="submit"],
+input[type="button"] {
+  color: #fff;
+  background-color: #37383d;
+  border-color: #37383d;
+  white-space: normal;
+  font-weight: bold;
+}
+
+/* Primary & Submit Button - Hover */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="button"]:active {
+  color: #fff;
+  background-color: #191919 !important;
+  border-color: #191919 !important;
+}
+
+
+/* Secondary Button */
+.btn-secondary {
+  color: #fff;
+  background-color: #161616;
+  border-color: #161616;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  color: #fff;
+  background-color: #F89B4D;
+  border-color: #F89B4D;
+}
+
+
+/* Light Outline Button - use on dark backgrounds */
+.btn-outline.light {
+  color: #fff;
+}
+
+.btn-outline.light:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #F89B4D;
+}
+
+/* Link Button */
+.btn-link {
+  color: #F89B4D;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-link:hover,
+.btn-link:focus,
+.btn-link:active {
+  color: #F89B4D;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn.primary-color:hover {
+  color: #fff;
+}
+
+a.btn-testimonial {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #171717;
+  transition: all .2s ease-in-out;
+}
+
+a.btn-testimonial:hover {
+  background: #fff;
+  color: #171717;
+}
+
+
+/* Captcha
+-------------------------------------------------------------------------------- */
+.captcha-normal {
+  margin-bottom: 30px;
+  padding-left: 0 !important;
+}
+
+.captcha-image {
+  padding-bottom: 20px;
+}
+
+.captcha-normal+.form-error-1 {
+  display: block;
+  margin-top: -30px;
+}
+
+
+/* Site Search
+-------------------------------------------------------------------------------- */
+.site_search {}
+
+.site_search a {
+  font-size: 16px !important;
+}
+
+.site_search .site_search_elements {
+  margin-bottom: 15px;
+
+}
+
+.site_search .site_search_elements a {
+  font-size: 16px !important;
+
+}
+
+.site_search_optionset {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.site_search_optionset td.collection-caption {
+  padding: 0 8px 0 3px;
+}
+
+
+/* /myaccount/profile.php */
+.main .info-group p {
+  margin-bottom: 0;
+}
+
+.info-group select,
+.info-group input[type="text"] {
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+
+.info-group .form-caption-1,
+.info-group .form-caption-2,
+.myacct-profile-image-info .form-caption-1 {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: 600;
+}
+
+.info-group td.form-caption-1 {
+  vertical-align: middle;
+}
+
+/*radio button spacing*/
+.info-group td.collection-caption {
+  margin-right: 10px;
+  padding-right: 25px;
+}

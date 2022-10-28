@@ -1,0 +1,249 @@
+/*
+================================================================================
+MAIN MENU
+================================================================================
+*/
+
+.pf-cssmenu-mainmenu2021-div {
+  position: relative;
+  z-index: 10;
+  font-family: myriad-pro-condensed, myriad-pro, sans-serif;
+}
+
+/* Reset */
+.pf-cssmenu-mainmenu2021,
+.pf-cssmenu-mainmenu2021 ul,
+.pf-cssmenu-mainmenu2021 li {
+  position: relative;
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Clearfix */
+.pf-cssmenu-mainmenu2021-div::after,
+.pf-cssmenu-mainmenu2021::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+/* Global Styling
+-------------------------------------------------------------------------------- */
+
+/* Links */
+.pf-cssmenu-mainmenu2021 a {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (max-width: 991px) {
+  .pf-cssmenu-mainmenu2021 a {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+
+/* LI - dropdown icon */
+.fa.js-dropdown-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.28571429em;
+  margin-right: -0.75em;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+@media (max-width: 991px) {
+  .fa.js-dropdown-icon {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50px;
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Level 1                                                    (specific styling)
+-------------------------------------------------------------------------------- */
+
+/* UL */
+.pf-cssmenu-mainmenu2021 {}
+
+@media (min-width: 992px) {
+  .pf-cssmenu-mainmenu2021 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Link - mobile */
+@media (max-width: 991px) {
+  .pf-cssmenu-mainmenu2021 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/* LI */
+.pf-cssmenu-mainmenu2021 > li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* LI - desktops */
+@media (min-width: 992px) {
+  .pf-cssmenu-mainmenu2021 > li {
+    display: inline-block;
+    border-bottom: none;
+  }
+}
+
+/* LI - Hover */
+.pf-cssmenu-mainmenu2021 li:hover {
+  color: #fff;
+  background-color: #c43449;
+}
+
+/* LI - Active */
+.pf-cssmenu-mainmenu2021 > li.item-on {
+  color: #fff;
+  background-color: #c43449;
+}
+
+/* LI - Has children */
+@media (max-width: 991px) {
+  .pf-cssmenu-mainmenu2021 li.sub > a {
+    margin-right: 50px;
+  }
+}
+
+/* Link */
+.pf-cssmenu-mainmenu2021 > li > a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 95%;
+  font-weight: bold;
+}
+
+/* Link - LI Hover */
+.pf-cssmenu-mainmenu2021 li:hover > a {}
+
+/* Link - LI Active */
+.pf-cssmenu-mainmenu2021 > li.item-on > a {}
+
+/* LEVEL 2                                                    (specific styling)
+-------------------------------------------------------------------------------- */
+.pf-cssmenu-mainmenu2021 ul {
+  position: absolute;
+  top: 98%;
+  display: none;
+  min-width: 100%;
+  color: #fff;
+  background-color: #c43449;
+  box-shadow: 0 5px 10px 3px rgba(69, 79, 91, 0.2);
+}
+
+/* desktops */
+
+/* show the sub menu on hover */
+@media (min-width: 992px) {
+  .pf-cssmenu-mainmenu2021 li:hover > ul {
+    display: block !important;
+  }
+}
+
+/* ensure last-child UL doesn't fall off the screen */
+.pf-cssmenu-mainmenu2021 > li:last-child:hover > ul {
+  right: 0;
+}
+
+/* LI */
+.pf-cssmenu-mainmenu2021 ul li {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pf-cssmenu-mainmenu2021 ul li:last-child {
+  border: 0;
+}
+
+/* LI - active state */
+.pf-cssmenu-mainmenu2021 ul li.item-on {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* LI - hover state  */
+.pf-cssmenu-mainmenu2021 ul li:hover,
+.pf-cssmenu-mainmenu2021 ul li.item-on:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Links */
+.pf-cssmenu-mainmenu2021 ul li a {
+  min-width: 200px;
+  white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  .pf-cssmenu-mainmenu2021 ul li.sub > a .js-dropdown-icon::before {
+    /* angle-right */
+    content: "\f105";
+  }
+}
+
+/* Level 2 - mobile */
+@media (max-width: 992px) {
+  .pf-cssmenu-mainmenu2021 ul {
+    position: static;
+  }
+
+  .pf-cssmenu-mainmenu2021 ul li {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  .pf-cssmenu-mainmenu2021 ul li:hover {
+    background-color: transparent;
+    background-image: none;
+  }
+}
+
+/* LEVEL 3+                                                   (specific styling)
+--------------------------------------------------------------------------------
+*/
+
+/* UL */
+
+/* mobile */
+@media (max-width: 991px) {
+  .pf-cssmenu-mainmenu2021 ul ul {
+    padding-left: 1em;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* desktops */
+@media (min-width: 992px) {
+  .pf-cssmenu-mainmenu2021 ul ul {
+    top: 0;
+    left: 100%;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* LI:last-child UL fly out to the left  (instead of right) */
+.pf-cssmenu-mainmenu2021 > li:hover:last-child ul ul {
+  right: 100%;
+  left: auto;
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+

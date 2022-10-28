@@ -1,0 +1,54 @@
+/* Styles here are required for formatting of the website categories */
+
+div.cat-subcat-container {
+    border:2px dotted #A7A7A7;
+    background-color:#E8E8E8;
+    margin-top:10px;
+    padding:15px;
+}
+
+div.cat-page-container {
+    margin-top:2px;
+    padding:15px;
+}
+
+div.subcat-container {
+    margin-bottom:4px;
+    border:1px solid #DBDBDB;
+    background-color:#DDDDDD;
+}
+
+div.subcat-container a.title, div.subcat-container a.title:link, div.subcat-container a.title:visited {
+    text-decoration:underline;
+    font-weight:bold;
+}
+div.subcat-container a.title:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+div.subcat-container span.tiny {
+    font-size:9px;
+    font-family:arial;
+}
+
+div.catpage-container {
+    padding:4px;
+    margin-bottom:4px;
+    border:1px solid #DBDBDB;
+    background-color:#F4F4F4;
+}
+
+div.catpage-container a.title, div.catpage-container a.title:link, div.catpage-container a.title:visited {
+    text-decoration:underline;
+    font-weight:bold;
+}
+div.catpage-container a.title:hover {
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+div.catpage-container span.tiny {
+    font-size:9px;
+    font-family:arial;
+}

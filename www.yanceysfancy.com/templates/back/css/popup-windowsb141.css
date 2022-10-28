@@ -1,0 +1,119 @@
+
+#pfwindow_loading {
+    position:absolute;
+    left:0px;
+    top:0px;
+    visibility:hidden;
+    z-index:50000;
+}
+
+/***********  POPUP  **********/
+.popup{
+
+}
+
+div.popup-blank-content {
+    overflow:auto;
+}
+
+.pu-titlebar-bg{
+    padding-top: 5px;
+    vertical-align: middle;
+    background: transparent url('../images/popup/pu-titlebar-bg.gif') repeat-x;
+}
+
+.titlebar-text{
+    font: bold 14px arial;
+    color: #ffffff;
+    vertical-align:middle;
+    padding: 2px 5px;
+}
+
+.pu-titlebar-left{
+    height: 32px;
+    width: 11px;
+    background: transparent url('../images/popup/pu-titlebar-left.gif') no-repeat;
+}
+
+.pu-titlebar-right{
+    width: 11px;
+    background: transparent url('../images/popup/pu-titlebar-right.gif') no-repeat;
+}
+
+.pu-contentarea{
+    background: #D1D1D1;
+    border-left: 2px solid #AC141A;
+    border-bottom: 2px solid #AC141A;
+    border-right: 2px solid #AC141A;
+    margin-left:1px;
+    margin-right:1px;
+}
+
+.ie-pu-contentarea{
+    background: #D1D1D1;
+    border-left: 2px solid #AC141A;
+    border-bottom: 2px solid #AC141A;
+    border-right: 2px solid #AC141A;
+}
+
+.pu-content-container {
+    padding:8px;
+}
+
+td.pu-button-bar {
+    padding:4px;
+    background-color:#C4C4C4;
+    border-top:1px solid #8C8C8C;
+}
+
+td.pu-button-holder {
+    padding-right:4px;
+}
+
+.statusbar{
+    height: 16px;
+    background: #BCBCBC url('../images/popup/pu-drag-icon.gif') no-repeat right bottom;
+    border-top: 1px solid white;
+    font: 10px arial;
+    vertical-align: middle;
+    padding: 2px;
+}
+.pu-drag{
+    display: inline;
+    float: right;
+    width: 16px;
+    height: 16px;
+}
+
+.scrolling-content-border{
+    border: 1px solid #bcbcbc;
+}
+
+.scrolling-content{
+    background: #ffffff;
+    padding:8px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-3dlight-color: #AC141A;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-base-color: #bcbcbc;
+    scrollbar-darkshadow-color: #600003;
+    scrollbar-face-color: #AC141A;
+    scrollbar-highlight-color: #FF414B;
+    scrollbar-shadow-color: #450508;
+    scrollbar-track-color: #eeeeee;
+}
+
+
+/***********  FIELDSET  **********/
+fieldset {
+    background: #ffffff;
+    border: 1px solid #bcbcbc;
+    padding: 8px;
+}
+
+legend {
+    margin-left: 10px;
+    padding: 0px 2px;
+}
+

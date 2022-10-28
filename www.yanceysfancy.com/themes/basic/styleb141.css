@@ -1,0 +1,9 @@
+/* Module Block Layout */
+div.theme-basic {
+}
+
+.footer .theme-basic h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

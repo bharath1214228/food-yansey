@@ -1,0 +1,106 @@
+
+/* Standard List */
+table.search-results-list {    
+    width: 100%;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+table.search-results-list tr.alternate-1 {
+    background:#EEE;
+    border-top: 1px solid #C4C4C4;
+}
+
+table.search-results-list tr.alternate-2 {
+    background:#FFF;
+    border-top: 1px solid #C4C4C4;
+}
+
+table.search-results-list td.empty-list {    
+    text-align:center;
+    padding: 10px;
+    border-top: 1px solid #C4C4C4;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+table.search-results-list td.standard-column {
+    padding: 5px;
+    text-align:left;
+}
+
+table.search-results-list-complete {
+    width: 100%;
+}
+
+table.search-results-list-complete td.title {
+    font-size:14px;
+    color:#000000;
+    font-weight:bold;    
+    padding-bottom:3px;
+}
+
+table.search-results-list-complete td.list-caption {    
+    font-size:13px;
+    color:#002B53;
+    font-weight:bold;    
+    padding-left:8px;
+    padding-top:3px;
+    vertical-align:middle;
+}
+
+table.search-results-list-complete td.filter {
+    padding-bottom:3px;
+}
+
+table.search-results-list-complete td.paging {    
+    padding-bottom:3px;    
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+table.search-results-list-complete td.list-image {
+    padding-left:5px;
+}
+
+table.search-results-list-paging td {
+    font-size:11px;
+    padding:0px;
+}
+
+table.search-results-list-paging td span {
+    font-weight:bold;    
+}
+
+td.search-results-list-prevnext {
+    width:50px;
+}
+
+td.search-results-list-prevnext a.prevnext, a.prevnext:visited, a.prevnext:link {
+    font-size:11px;
+}
+
+td.search-results-list-prevnext a.prevnext:hover {
+    font-size:11px;
+}
+
+table.search-results-list-pages {
+
+}
+
+table.search-results-list-pages td {
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:1px;
+}
+
+table.search-results-list a {
+    font-weight: bold;
+}
+
+a.search-results-list-anchor, a.search-results-list-anchor:visited, a.search-results-list-anchor:link {
+    color:#C21B21;
+}
+
+a.search-results-list-anchor:hover {
+    color:#FF0033;
+}

@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.yanceysfancy.com	TRUE	/	FALSE	1999999999	PHPSESSID	obps0ki9bj76uc8g37g30h9572
+www.yanceysfancy.com	TRUE	/	FALSE	1999999999	pf_visitor_cookie	4c14f6f73582746fd67f23324ca8640b
+

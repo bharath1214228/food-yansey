@@ -1,0 +1,64 @@
+/* Styles here are required for formatting of the website navigation map */
+
+div.web-sitemap {
+    width: 100%;
+}
+
+.web-sitemap .component {
+    padding: 2px;
+    margin: 20px 0px;
+    border: 1px solid #EEE;
+}
+
+.web-sitemap h2 {
+    color: #888;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.web-sitemap ul {
+    list-style-type: none;
+    padding: 2px;
+    border: 1px solid #EEE;
+}
+
+.web-sitemap h3 {
+    font-size: 12px;
+}
+
+.web-sitemap li {
+    color: #999;
+    font-size: 12px;
+    margin: 2px 0px 0px 0px;
+    line-height: 20px;
+    text-indent: 6px;
+    background: #EEE;
+}
+
+.web-sitemap .category {
+    background: #E6E6E6;
+}
+
+.web-sitemap .pagelink {
+    text-indent: 10px;
+}
+
+.web-sitemap a {
+    display: block;
+    width: 100%;
+    color: #999;
+    text-decoration: none;
+}
+
+.web-sitemap a:link {
+}
+
+.web-sitemap a:visited {
+    background: url(../images/sitemap_visited.png) no-repeat right top;
+}
+
+.web-sitemap a:hover,
+.web-sitemap a:active {
+    color: #333;
+    background: url(../images/sitemap_hover.png) no-repeat right top #CCC;
+}

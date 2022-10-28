@@ -1,0 +1,133 @@
+
+body.login-body {
+    background: none;
+    background-color:#FFFFFF;
+    margin:0px;
+    vertical-align:top;
+    cursor:default;
+    font: 11px arial,tahoma,sans-serif;
+}
+
+input {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+select {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+textarea {
+    font-family:arial,tahoma,sans-serif;
+    font-size:11px;
+}
+
+a.login-box, a.login-box:link, a.login-box:visited {
+    font-family:verdana;
+    font-size:11px;
+    color:#FFFFFF;
+    text-decoration:none;
+}
+a.login-box:hover {
+    font-family:verdana;
+    font-size:11px;
+    color:#FFFFFF;
+    text-decoration:underline;
+}
+
+#login_box {
+    background-repeat:no-repeat;
+    width:512px;
+    height:252px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#login_box_elements {
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:140px;
+    padding-bottom:10px;
+}
+
+td.form-caption-login {
+    padding:2px;
+    padding-right:4px;
+    padding-top:6px;
+    vertical-align:top;
+    text-align:right;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+td.form-element-login {
+    padding:2px;
+    margin-left:0px;
+    text-align:left;
+}
+
+input.login-text-off {
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+input.login-text-on {
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+}
+
+input.login-password-off {
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+}
+input.login-password-on {
+    padding:1px 2px 1px 2px;
+    vertical-align:middle;
+    background-color:#FFFFFF;
+    border:1px solid #000000;
+}
+
+input.login-submit-off, input.login-button-off {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+    width:100px;
+}
+
+input.login-submit-over, input.login-button-over {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #CC0000;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+    width:100px;
+}
+
+input.login-submit-on, input.login-button-on {
+    background: url(../images/buttons/submit-background.gif);
+    font-size: 10px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    cursor:pointer;
+    width:100px;
+}
